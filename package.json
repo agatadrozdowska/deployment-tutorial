@@ -1,0 +1,40 @@
+{
+  "name": "Suggested-Footer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack -d --watch",
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js -w server -w database-mysql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etsy-FEC/Suggested-Footer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Etsy-FEC/Suggested-Footer/issues"
+  },
+  "homepage": "https://github.com/Etsy-FEC/Suggested-Footer#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
